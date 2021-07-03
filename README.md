@@ -61,5 +61,7 @@ The purpose of this project is to build and evaluate several machine learning mo
 ## Summary
 - Each of the models used to perform the credit risk analysis demonstrate weak precision in determining high credit risk.
 - The Ensemble models fared better especially on the sensitivity of high risk credit.
-- The EasyEnsembleClassifier Model shows a 
+- The EasyEnsembleClassifier Model shows a recall of 94% which demonstrates that it detects almost all high risk credit, but with a such a low precision a lot of low credit risks are falsely detected as high risk which would hurt the banks credit strategy and revenue by missing those opportunities.
+
+For the reasons summarized, it would not be recommended that the bank use any of these models to predict credit risk.
 
